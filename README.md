@@ -16,13 +16,13 @@ Used JSWtoken to validate the request, generating the token in /api/generateMsg 
 The client has to send back the token as request header("token") while calling /finalMsg request.
 
 The token is generated using following propeties.
-#JWT Token properties
+# JWT Token properties
 1.subject    : Questions to send
 2.Algorithm  : SignatureAlgorithm.HS512
 3.Secret key : M@r1@b$
 
-#Test cases
+# Test cases
 Covered all the test scenarios and added in src/test/java/com/addnumbers/AdditionControllerTest.java, all the test cases are working fine.
 
-#Utilities
+# Utilities
 Have added swagger api documentation, http://localhost:8888/swagger-ui.html is the link to access the swagger console.
