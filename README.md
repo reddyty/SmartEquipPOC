@@ -26,3 +26,8 @@ Covered all the test scenarios and added in src/test/java/com/addnumbers/Additio
 
 # Utilities
 Have added swagger api documentation, http://localhost:8888/swagger-ui.html is the link to access the swagger console.
+
+# Postman collection
+Plese find postman collection details following location.
+https://github.com/reddyty/SmartEquipPOC/blob/main/addition_smartequip.json
+
