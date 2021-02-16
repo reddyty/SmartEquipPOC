@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "093a8324-5e83-4b3d-88ca-d7cbaa8bf6ec",
+		"name": "addition",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "client message",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Service Message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/api/ServiceMsg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"ServiceMsg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fianl message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/api/finalMessage?question=252, 109, 238, 25, 98&total=722&token=2521092382598",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"finalMessage"
+					],
+					"query": [
+						{
+							"key": "question",
+							"value": "252, 109, 238, 25, 98"
+						},
+						{
+							"key": "total",
+							"value": "722"
+						},
+						{
+							"key": "token",
+							"value": "2521092382598"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
